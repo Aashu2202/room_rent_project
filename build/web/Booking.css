@@ -1,0 +1,192 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 16, 2023, 2:07:44 PM
+    Author     : Ashshi
+*/
+/*-------------------------	Header --------------------------*/
+.header div#model img {
+	margin-left: 2px;
+}
+.header p {
+	padding: 13px 24px 10px 30px;
+}
+.header div#model {
+	margin:16px 0 0;
+	padding: 4px 7px 7px 8px;
+}
+.header {
+	height: 1%;
+}
+/*-------------------------	Body --------------------------*/
+.body {
+	background: url(images1/ie6/divider.jpg) no-repeat scroll 2px 2px;
+}
+.body div {
+	background: url(images1/ie6/divider.jpg) no-repeat scroll 2px 2px;
+}
+.body ul li {
+	margin-right: 23px;
+}
+#body div {
+	margin: 0 0 82px;
+}
+#body div ul {
+	padding: 0 0 0 20px;
+	margin-bottom: -2px;
+}
+#body div.section {
+	background:url(images1/ie6/divider.jpg) no-repeat 2px 1px;
+}
+#body div ul li {
+	margin: 0 0 100px;
+	overflow: hidden;
+	padding: 0;
+}
+/*-------------------------	Footer --------------------------*/
+.footer {
+	background: url(images1/ie6/bg-footer.jpg) no-repeat scroll 2px 0;
+}
+.footer div {
+	margin-left: 20px;
+}
+.footer p#footnote {
+	margin: -60px 0 0;
+}
+
+
+/*------------------------- Layout styles ------------------------*/ 
+body {
+	background:url(images1/bg-body.gif) top center;
+	height:auto;
+	width:auto;
+	margin: 0;
+}
+.page {
+	height:auto;
+	width:960px;
+	margin:0 auto;
+}
+p a {
+	color:#e9e1f0;
+	font-weight:bold;
+	text-decoration: none;
+}
+/*-------------------------	Header --------------------------*/
+.header {
+	overflow: hidden;
+}
+.header img {
+	border: 0;
+}
+.header div#model {
+	background: url(images1/bg-model.gif) no-repeat -2px 6px;
+	border: 0 none;
+	float: left;
+	height: 457px;
+	margin: 24px 0 0;
+	padding: 6px 7px 7px 9px;
+	width: 696px;
+}
+.header div {
+	float:right;
+	height:auto;
+	width:248px;
+	padding: 29px 0 0;
+}
+
+.header div ul#navigation {
+	margin: 52px 0 0 12px;
+	list-style: none;
+	padding: 0;
+}
+.header div ul#navigation li {
+	height:22px;
+	margin-bottom:25px;
+                    color:#FFFEFF;
+	font-size:21px;
+	padding-left:12px;
+	text-decoration:none;
+	text-shadow:0 -1px 0 #410E5D;
+	outline: none;
+}
+.header div ul#navigation li :hover {
+	color:#00FFEB;
+}
+
+/*-------------------------	Footer --------------------------*/
+.footer {
+	background:url(images1/bg-footer.png) no-repeat top center;
+	height:auto;
+	margin:0 auto;
+	padding-bottom:30px;
+	padding-top:65px;
+	width:960px;
+	overflow: hidden;
+}
+.footer div {
+	margin-left:35px;
+	float: left;
+}
+.footer div p {
+	color:#ab90bd;
+	font-family:arial;
+	font-size:15px;
+	line-height:30px;
+	margin: 0 0 0 25px;
+	text-align:center;
+	text-shadow:0 -1px 0 #410E5D;
+	width:370px;
+}
+
+.footer div form {
+	margin-top:15px;
+}
+.footer div form input {
+	border:0 none;
+	border-radius:5px;
+	color:#9d9d9d;
+	font-size:13px;
+	height:19px;
+	margin-left:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;
+	width:189px;
+}
+.footer div#connect {
+	float:left;
+	margin-left:80px;
+	padding-bottom:45px;
+}
+.footer div h3 {
+	color:#b194c2;
+	font-family:arial;
+	font-size:18px;
+	font-weight:700;
+	margin-bottom:7px;
+	margin-top:8px;
+	text-shadow:0 -1px 0 #410E5D;
+}
+
+.footer div span span {
+	font-size:24px;
+}
+
+.footer p#footnote {
+	color:#B093BF;
+	text-align:center;
+	clear:both;
+	font-family:arial;
+	font-size:13px;
+	margin: 0;
+}
+.footer div:first-child form input:first-child, .footer ul.navigation li:first-child {
+	margin-left:0;
+}
+
+
